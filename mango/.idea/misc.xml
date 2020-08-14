@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/mango-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/mango-backup/pom.xml" />
+        <option value="$PROJECT_DIR$/mango-common/pom.xml" />
+        <option value="$PROJECT_DIR$/mango-pom/pom.xml" />
+        <option value="$PROJECT_DIR$/mango-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/mango-producer2/pom.xml" />
+        <option value="$PROJECT_DIR$/mango-comsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/mango-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/mango-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/mango-config/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

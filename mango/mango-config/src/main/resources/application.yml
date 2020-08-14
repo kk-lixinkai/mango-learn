@@ -1,0 +1,28 @@
+server:
+  port: 8020
+spring:
+  application:
+    name: mango-config
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+    config:
+      label: master # git\u4ED3\u5E93\u5206\u652F
+      server:
+        git:
+          uri: https://gitee.com/bestbug/mango_learn.git # \u914D\u7F6Egit\u4ED3\u5E93\u7684\u5730\u5740
+          search-paths: config-repo # git \u4ED3\u5E93\u5730\u5740\u4E0B\u7684\u76F8\u5BF9\u5730\u5740\uFF0C\u53EF\u4EE5\u914D\u7F6E\u591A\u4E2A\uFF0C\u7528\uFF0C\u5206\u5272
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: lixinkai
+    password: lixinkai
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

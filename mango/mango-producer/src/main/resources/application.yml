@@ -1,0 +1,21 @@
+server:
+  port: 8004
+spring:
+  application:
+    name: mango-producer
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+
+# \u5F00\u653E\u5065\u5EB7\u68C0\u67E5\u63A5\u53E3
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
